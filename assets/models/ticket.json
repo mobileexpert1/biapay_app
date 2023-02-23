@@ -1,0 +1,11 @@
+{
+    "id": 82,
+    "ticketNo": "D9QNJ1",
+    "title": "ticket 2222",
+    "content": "22222",
+    "priority": "HIGH",
+    "status": "REOPENED",
+    "createdDateTime": "2022-07-16 01:24",
+    "attachments": [2],
+    "assignees": [1]
+}

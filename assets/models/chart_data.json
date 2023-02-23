@@ -1,0 +1,16 @@
+{
+    "transactionsByCategory": {
+        "2022": 0.0
+    },
+    "transactionsByMethod": {
+        "2022": 0.0
+    },
+    "transactionsByShop": {
+        "2022": 0.0
+    },
+    "transactionsBySubscription": {
+        "2022": 0.0
+    },
+    "totalTransactions": 0.0,
+    "totalTransactionAmount": 0.0
+}

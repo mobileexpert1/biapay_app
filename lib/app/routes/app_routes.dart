@@ -1,0 +1,180 @@
+part of 'app_pages.dart';
+// DO NOT EDIT. This is code generated via package:get_cli/get_cli.dart
+
+abstract class Routes {
+  Routes._();
+  static const HOME = _Paths.HOME;
+  static const SPLASH = _Paths.SPLASH;
+  static const BASE_APP = _Paths.BASE_APP;
+  static const CHOOSE_LANGUAGE = _Paths.CHOOSE_LANGUAGE;
+  static const SIGNIN = _Paths.SIGNIN;
+  static const SIGNUP = _Paths.SIGNUP;
+  static const DASHBOARD = _Paths.DASHBOARD;
+  static const INTRO = _Paths.INTRO;
+  static const TRANSFERT = _Paths.TRANSFERT;
+  static const ANALYSTICS = _Paths.ANALYSTICS;
+  static const TRANSACTION = _Paths.TRANSACTION;
+  static const SCAN = _Paths.SCAN;
+  static const COUPON = _Paths.COUPON;
+  static const CLAIM = _Paths.CLAIM;
+  static const TONTINE = _Paths.TONTINE;
+  static const ECOMMERCE = _Paths.ECOMMERCE;
+  static const LOYALTY = _Paths.LOYALTY;
+  static const ECOMMERCEDETAIL = _Paths.ECOMMERCEDETAIL;
+  static const ECOMMERCECART = _Paths.ECOMMERCECART;
+  static const EVEN_BOOKING = _Paths.EVEN_BOOKING;
+  static const LANDING = _Paths.LANDING;
+  static const PROFIL = _Paths.PROFIL;
+  static const CHOOSE_LOGIN_OPTION = _Paths.CHOOSE_LOGIN_OPTION;
+  static const PIN_CODE = _Paths.PIN_CODE;
+  static const SETTINGS = _Paths.SETTINGS;
+  static const KYC = _Paths.KYC;
+  static const TICKET = _Paths.TICKET;
+  static const BACKGROUND_IMAGES = _Paths.BACKGROUND_IMAGES;
+  static const TUTORIALS = _Paths.TUTORIALS;
+  static const CHAT = _Paths.CHAT;
+  static const SUBSCRIPTION_PLAN = _Paths.SUBSCRIPTION_PLAN;
+  static const MY_ACCOUNT = _Paths.MY_ACCOUNT;
+  static const MY_WALLET = _Paths.MY_WALLET;
+  static const SHOP_MANAGER = _Paths.SHOP_MANAGER;
+  //new added
+  static const FORGOT_PASSWORD = _Paths.FORGOT_PASSWORD;
+  static const EVENT_MANAGEMENT = _Paths.EVENT_MANAGEMENT;
+  static const MONEY_REQUEST_MAIN = _Paths.MONEY_REQUEST_MAIN;
+  static const SEND_MONEY = _Paths.SEND_MONEY;
+  static const REQUEST_MONEY = _Paths.REQUEST_MONEY;
+  static const PAY_LINK = _Paths.PAY_LINK;
+  static const SHOW_SEND_SUMMARY = _Paths.SHOW_SEND_SUMMARY;
+  static const SHOW_REQUEST_SUMMARY = _Paths.SHOW_REQUEST_SUMMARY;
+  static const REFERAL_FRIEND = _Paths.REFERAL_FRIEND;
+  static const PRIVATE_SIGNUP = _Paths.PRIVATE_SIGNUP;
+  static const BUSINESS_SIGNUP = _Paths.BUSINESS_SIGNUP;
+  static const CHANGE_PASSWORD = _Paths.CHANGE_PASSWORD;
+  static const RECOVER_PASSWORD = _Paths.RECOVER_PASSWORD;
+  static const WEB_VIEW = _Paths.WEB_VIEW;
+  static const EDIT_PROFILE = _Paths.EDIT_PROFILE;
+  static const NEW_TICKETS = _Paths.NEW_TICKETS;
+  static const CUSTOMER_QR_BARCODE = _Paths.CUSTOMER_QR_BARCODE;
+  static const MERCHENT_QR_BARCODE = _Paths.MERCHENT_QR_BARCODE;
+
+  static const SETTLEMENTREPORT = _Paths.SETTLEMENTREPORT;
+  static const SETTLEMENTREPORTDETAIL = _Paths.SETTLEMENTREPORTDETAIL;
+  static const MERCHENT_PROFILE_VIEW = _Paths.MERCHENT_PROFILE_VIEW;
+  static const MERCHENT_PROFILE_SETTLEMENT = _Paths.MERCHENT_PROFILE_SETTLEMENT;
+  static const MERCHENT_ADD_SETTLEMENT = _Paths.MERCHENT_ADD_SETTLEMENT;
+  static const POS_SHOP_PIE_VIEW = _Paths.POS_SHOP_PIE_VIEW;
+  static const POS_SHOP_PIE_VIEW_METHOD = _Paths.POS_SHOP_PIE_VIEW_METHOD;
+  static const SHOP_INFORMATION_VIEW = _Paths.SHOP_INFORMATION_VIEW;
+  static const ALL_SHOP_INFORMATION_VIEW = _Paths.ALL_SHOP_INFORMATION_VIEW;
+  static const ALL_PLAN_INFORMATION_VIEW = _Paths.ALL_PLAN_INFORMATION_VIEW;
+  static const MERCHENT_PROFILE_DASH_VIEW = _Paths.MERCHENT_PROFILE_DASH_VIEW;
+  static const REQUEST_MONEY_MERCHANT_VIEW = _Paths.REQUEST_MONEY_MERCHANT_VIEW;
+  static const GENERATE_PAY_LINK_VIEW = _Paths.GENERATE_PAY_LINK_VIEW;
+  static const BULK_GENERATE_PAY_LINK_VIEW = _Paths.BULK_GENERATE_PAY_LINK_VIEW;
+
+  static const INVOICING = _Paths.INVOICING;
+  static const PRICING = _Paths.PRICING;
+  static const BILLING = _Paths.BILLING;
+  static const SETTLEMENT = _Paths.SETTLEMENT;
+  static const INVOICES = _Paths.INVOICES;
+  static const CREATEINVOICE = _Paths.CREATEINVOICE;
+  static const CUSTOMER = _Paths.CUSTOMER;
+  static const ADDCUSTOMER = _Paths.ADDCUSTOMER;
+  static const PRODUCT = _Paths.PRODUCT;
+  static const ADDPRODUCT = _Paths.ADDPRODUCT;
+  static const COUPONS = _Paths.COUPONS;
+  static const ADDCOUPON = _Paths.ADDCOUPON;
+  static const QUOTATION = _Paths.QUOTATION;
+  static const TRANSACTIONN = _Paths.TRANSACTIONN;
+
+}
+
+abstract class _Paths {
+  _Paths._();
+  static const HOME = '/home';
+   static const PRIVATE_SIGNUP = '/private-signup';
+  static const BUSINESS_SIGNUP = '/business-signup';
+
+  static const SPLASH = '/splash';
+  static const BASE_APP = '/base-app';
+  static const CHOOSE_LANGUAGE = '/choose-language';
+  static const SIGNIN = '/signin';
+  static const SIGNUP = '/signup';
+  static const DASHBOARD = '/dashboard';
+  static const INTRO = '/intro';
+  static const TRANSFERT = '/transfert';
+  static const ANALYSTICS = '/analystics';
+  static const TRANSACTION = '/transaction';
+  static const SCAN = '/scan';
+  static const COUPON = '/coupon';
+  static const CLAIM = '/claim';
+  static const TONTINE = '/tontine';
+  static const ECOMMERCE = '/ecommerce';
+  static const LOYALTY = '/ecommerce';
+  static const ECOMMERCEDETAIL = '/ecommerce-detail';
+  static const ECOMMERCECART = '/ecommerce-cart';
+  static const EVEN_BOOKING = '/even-booking';
+  static const LANDING = '/landing';
+  static const PROFIL = '/profil';
+  static const CHOOSE_LOGIN_OPTION = '/choose-login-option';
+  static const PIN_CODE = '/pin-code';
+  static const SETTINGS = '/settings';
+  static const KYC = '/kyc';
+  static const TICKET = '/ticket';
+  static const BACKGROUND_IMAGES = '/background-images';
+  static const TUTORIALS = '/tutorials';
+  static const CHAT = '/chat';
+  static const SUBSCRIPTION_PLAN = '/subscription-plan';
+  static const MY_ACCOUNT = '/my-account';
+  static const MY_WALLET = '/my-wallet';
+  static const SHOP_MANAGER = '/shop-manager';
+
+  //new added
+  static const FORGOT_PASSWORD = '/forgot_password';
+  static const EVENT_MANAGEMENT = '/event_managment';
+  static const MONEY_REQUEST_MAIN = '/money_request_main';
+  static const SEND_MONEY = '/send_money';
+  static const REQUEST_MONEY = '/request_money';
+  static const PAY_LINK = '/pay_link';
+  static const SHOW_SEND_SUMMARY = '/show_summary_send';
+  static const SHOW_REQUEST_SUMMARY = '/show_summary_request';
+  static const REFERAL_FRIEND = '/referal_friend';
+  static const CHANGE_PASSWORD = '/change_password';
+  static const RECOVER_PASSWORD = '/recover_password';
+  static const WEB_VIEW = '/web_view';
+  static const EDIT_PROFILE = '/edit_profile';
+  static const NEW_TICKETS = '/new_tickets';
+  static const CUSTOMER_QR_BARCODE = '/customer_qr_barcode';
+  static const MERCHENT_QR_BARCODE = '/merchent_qr_barcode';
+  static const MERCHENT_PROFILE_VIEW = '/merchent_profile_view';
+
+  static const SETTLEMENTREPORT = '/settlement-report';
+  static const SETTLEMENTREPORTDETAIL = '/settlement-report-details';
+  static const MERCHENT_PROFILE_SETTLEMENT = '/merchent_profile_settlement';
+  static const MERCHENT_ADD_SETTLEMENT = '/merchent_add_settlement';
+  static const POS_SHOP_PIE_VIEW = '/pos_shop_pie_view';
+  static const POS_SHOP_PIE_VIEW_METHOD = '/pos_shop_pie_view_method';
+  static const SHOP_INFORMATION_VIEW = '/shop_information_view';
+  static const ALL_SHOP_INFORMATION_VIEW = '/all_shop_information_view';
+  static const ALL_PLAN_INFORMATION_VIEW = '/all_plan_information_view';
+  static const MERCHENT_PROFILE_DASH_VIEW = '/merchent_profile_dash_view';
+  static const REQUEST_MONEY_MERCHANT_VIEW = '/request_money_merchant_view';
+  static const GENERATE_PAY_LINK_VIEW = '/generate_pay_link_view';
+  static const BULK_GENERATE_PAY_LINK_VIEW = '/bulk_generate_pay_link_view';
+
+  static const INVOICING = '/invoicing';
+  static const PRICING = '/pricing';
+  static const BILLING = '/billing';
+  static const SETTLEMENT = '/settlement';
+  static const INVOICES = '/invoices';
+  static const CREATEINVOICE = '/create-invoices';
+  static const CUSTOMER = '/customer';
+  static const ADDCUSTOMER = '/add-customer';
+  static const PRODUCT = '/product';
+  static const ADDPRODUCT = '/add-product';
+  static const COUPONS = '/coupons';
+  static const ADDCOUPON = '/add-coupons';
+  static const QUOTATION = '/quotation';
+  static const TRANSACTIONN = '/transactionn';
+
+}
